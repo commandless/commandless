@@ -9,8 +9,7 @@
         "create",
         "boilerplate",
         "scaffold",
-        "webpack",
-        "project"
+        "webpack"
     ],
     "inputs": {
         "args": [
