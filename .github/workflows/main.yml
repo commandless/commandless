@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: commandless/schema-validation@v20
+      uses: commandless/schema-validation@v21
       with:
         who-to-greet: 'Mona the Octocat'
         repo-token: ${{ secrets.GITHUB_TOKEN }}
