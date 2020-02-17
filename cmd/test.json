@@ -5,7 +5,6 @@
         "github": "facebook/create-react-app"
     },
     "keywords": [
-        "react",
         "project"
     ],
     "inputs": {
