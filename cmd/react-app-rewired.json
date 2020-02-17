@@ -1,0 +1,91 @@
+{
+    "resolution": {
+        "bin": "react-app-rewired",
+        "npm": "react-app-rewired",
+        "github": "timarney/react-app-rewired"
+    },
+    "keywords": [
+        "react",
+        "create",
+        "boilerplate",
+        "scaffold",
+        "webpack",
+        "project",
+        "custom",
+        "config"
+    ],
+    "inputs": {
+        "args": [
+            {
+                "description": "App name",
+                "type": "string",
+                "isRequired": true
+            }
+        ],
+        "flags": [
+            {
+                "description": "Template name",
+                "short": null,
+                "long": "template",
+                "type": "string",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Use NPM instead of Yarn",
+                "short": null,
+                "long": "use-npm",
+                "type": "boolean",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Version of react-scripts package",
+                "short": null,
+                "long": "scripts-version",
+                "type": "string",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Print environment debug info",
+                "short": null,
+                "long": "info",
+                "type": "boolean",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Print additional logs",
+                "short": null,
+                "long": "verbose",
+                "type": "boolean",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Output the version number",
+                "short": "V",
+                "long": "version",
+                "type": "boolean",
+                "isRequired": false,
+                "default": null
+            },
+            {
+                "description": "Output usage information",
+                "short": "h",
+                "long": "help",
+                "type": "boolean",
+                "isRequired": false,
+                "default": null
+            }
+        ]
+    },
+    "recipes": [
+        {
+            "description": "Create React app with custom webpack config",
+            "keywords": [],
+            "inputs": {}
+        }
+    ]
+}
