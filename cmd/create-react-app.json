@@ -1,6 +1,5 @@
 {
     "resolution": {
-        "bin": "create-react-app",
         "npm": "create-react-app",
         "github": "facebook/create-react-app"
     },
