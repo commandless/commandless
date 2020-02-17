@@ -5,6 +5,7 @@
         "github": "facebook/create-react-app"
     },
     "keywords": [
+	"meow"
     ],
     "inputs": {
         "args": [
