@@ -1,14 +1,18 @@
 {
     "resolution": {
-        "npm": "create-react-app",
-        "github": "facebook/create-react-app"
+        "bin": "react-app-rewired",
+        "npm": "react-app-rewired",
+        "github": "timarney/react-app-rewired"
     },
     "keywords": [
         "react",
         "create",
         "boilerplate",
         "scaffold",
-        "webpack"
+        "webpack",
+        "project",
+        "custom",
+        "config"
     ],
     "inputs": {
         "args": [
@@ -79,23 +83,9 @@
     },
     "recipes": [
         {
-            "description": "Create React app with no build configuration",
+            "description": "Create React app with custom webpack config",
             "keywords": [],
             "inputs": {}
-        },
-        {
-            "description": "Create React app with no build configuration using TypeScript",
-            "keywords": [
-                "typescript"
-            ],
-            "inputs": {
-                "flags": [
-                    {
-                        "long": "template",
-                        "value": "typescript"
-                    }
-                ]
-            }
         }
     ]
 }
